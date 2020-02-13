@@ -43,6 +43,9 @@
        <input type="submit" value="submit">
    </div>
 </form>
-
+{{--{{print_r($lastdb)}}--}}
+@foreach($lastdb as $lla)
+    {{unserialize($lla->step1)[1][0]}}
+    @endforeach
 </body>
 </html>

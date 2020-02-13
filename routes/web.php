@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/1', function () {
+    return view('welcome1');
+});
+Route::get('/showform','FormController@ShowForm')->name('showform');
+Route::post('/submitform','FormController@SubmitForm')->name('submitform');
+
+Route::post('formm','FormController@dd')->name('formm');

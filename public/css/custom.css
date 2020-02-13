@@ -1,0 +1,340 @@
+body, input, textarea, select {
+    font-family: 'PT Sans', Helvetica, Arial, Lucida, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', Helvetica, Arial, Lucida, sans-serif;
+}
+
+p, label{
+font-family: Verdana;
+}
+
+.nextBtn{
+    width: 340px;
+    background: #27AE60;
+    display: inline;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 40px 8px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.prevBtn{
+    width: 340px;
+    background: #CCCCCC;
+    display: inline;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 40px 8px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+
+
+.p1{
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+    font-family: 'PT Sans', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.p2{
+    text-align: center;
+    font-family: 'PT Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+}
+
+.p3{
+    
+    font-family: 'PT Sans', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    margin-left: 220px;
+}
+
+.stepBox{
+    border: 1px;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 140px;
+    /* box-shadow: 6px 6px 6px 6px #888888; */
+    margin-left: 270px;
+    align: center;
+    width:730px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+
+.stepBox  input[type =  'radio'] {
+    padding-bottom: 10px;
+}
+
+.stepBox_header{
+    font-family: 'PT Sans', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.img_class{
+position: absolute;
+left: 550px;
+bottom: 130px;
+}
+
+ul#progressbar li{
+    display:inline;
+    font-size: 9px;
+}
+
+ul#progressbar{
+    margin-left: 180px;
+    list-style: none;
+}
+
+
+.pointer{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: green;
+    padding: 3px;   
+
+}
+
+.rectangle{
+    width:77px;
+    height: 2px;
+    background-color: green;
+    position: absolute;
+}
+
+/* . div{
+    margin: 0 auto;
+} */
+
+.pointer div{
+    margin: 0 auto;
+}
+
+.numbers{
+    margin-left: 190px;
+    position: relative;
+    list-style: none;
+}
+
+ul#numbers li{
+    display:inline-block;
+   
+}
+
+.next_btn{
+    width: 47%;
+    background: #27AE60;
+    display: inline;
+    font-size: ;
+    font-weight: bold;
+    color:white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 16px 8px;
+    text-align: center;
+}
+
+.pack{
+    position: absolute;
+    z-index: -899;
+}
+
+.granger{
+    font-family: 'Ubuntu', Helvetica, Arial, Lucida, sans-serif;
+    /* font-size: 22px; */
+    color:
+    #333;
+    padding-bottom: 2px;
+    line-height: 1em;
+    /* font-weight: 500; */
+    font-size: ;
+    quotes: none;
+    text-align: left;
+    border-left: #BA4123 solid 5px;
+    
+}
+
+.txt1{
+padding: 3px;
+border: 1px solid #ccc;
+border-radius: 3px;
+margin-bottom: 10px;
+width: 100%;
+color:#2C3E50;
+font-size: 13px;
+}
+
+.label{
+font-family: Verdana;
+font-weight: bold;
+font-size: 14px;
+}
+
+
+
+.QuestionMark{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .QuestionMark .tooltip {
+    visibility: hidden;
+    width: 260px;
+    background-color: #5F5F5F;
+    color: #fff;
+    text-align: center;
+    border-radius: 1px;
+    padding: 5px 15px 5px 5px;
+    font-size: 10px;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .QuestionMark:hover .tooltip  {
+    visibility: visible;
+  }
+
+  
+
+  #progressbar {
+    padding-left: 0;
+    overflow: hidden;
+    counter-reset: step;
+}
+#progressbar li {
+    list-style-type: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+    width: 10%;
+    float: left;
+    line-height: 14px;
+    position: relative;
+}
+
+#progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 20px;
+    line-height: 20px;
+    display: block;
+    font-size: 10px;
+    color: #333;
+    background: white;
+    border-radius: 20px;
+    margin: 0 auto 5px auto;
+}
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: -50%;
+    top: 9px;
+    z-index: -1;
+}
+#progressbar li:first-child:after {
+    content: none;
+}
+
+#progressbar li.active:before,  #progressbar li.active:after{
+    background: #27AE60;
+    color: white;
+}
+#progressbar li.finish:before,  #progressbar li.active:after{
+    background: #27AE60;
+    color: white;
+}
+
+.tab{
+    position: relative;
+}
+
+.img_class2{
+    position: absolute;
+    left: 550px;
+    bottom: 290px; 
+}
+
+.img_class3{
+    position: absolute;
+    left: 550px;
+    top: 1px;
+    /* bottom: 620px;  */
+}
+
+a {
+    color: 
+    #0b97dd;
+    text-decoration: none;
+}
+
+/* a:hover {
+    text-decoration: none;
+} */
+
+.radioLabel{
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.7;
+}
+
+.yesNo4{
+    font-family: Verdana;
+    font-size: 12px;
+    /* line-height: 1.9;  */
+    margin-bottom: 15px;
+}
+
+.normalText{
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.img_class4{
+    position: absolute;
+    left: 550px;
+    bottom: 1660px;
+}
+
+.img_class4_1{
+    position: absolute;
+    left: 550px;
+    bottom: 260px;
+}
+
+.normalText2{
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: bold;
+}
+
+.img_class5{
+    position: absolute;
+    left: 550px;
+    bottom: 360px;
+}
