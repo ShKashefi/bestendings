@@ -83,16 +83,20 @@
                 <img class="img_class" src="bestendings_pics\QuoteGr.png">
                 <ul style="list-style: none; font-size: 14px; line-height: 1.7;">
                     <li>
-                        <input type="radio" value="value1" name="step1"><label>“Do not go gentle into that good night, Old age should burn and <br>rage at close of day; Rage, rage against the dying of the light.” – Dylan Thomas</label><br>
+                        <input type="radio" value="“Do not go gentle into that good night, Old age should burn and rage at close of day; Rage, rage against the dying of the light.” – Dylan Thomas" name="step1">
+                        <label>“Do not go gentle into that good night, Old age should burn and <br>rage at close of day; Rage, rage against the dying of the light.” – Dylan Thomas</label><br>
                     </li>
                     <li>
-                        <input type="radio" value="value2" name="step1"><label>“I’ve told my children that when I die, to release balloons in the sky to celebrate that I graduated: for me death is a graduation.” – Elizabeth Kubler Ross</label><br>
+                        <input type="radio" value="“I’ve told my children that when I die, to release balloons in the sky to celebrate that I graduated: for me death is a graduation.” – Elizabeth Kubler Ross" name="step1">
+                        <label>“I’ve told my children that when I die, to release balloons in the sky to celebrate that I graduated: for me death is a graduation.” – Elizabeth Kubler Ross</label><br>
                     </li>
                     <li>
-                        <input type="radio" value="value3" name="step1"><label>“To the organized mind, death is but the next great adventure.” – JK Rowling</label><br>
+                        <input type="radio" value="“To the organized mind, death is but the next great adventure.” – JK Rowling" name="step1">
+                        <label>“To the organized mind, death is but the next great adventure.” – JK Rowling</label><br>
                     </li>
                     <li>
-                        <input type="radio" value="value4" name="step1"><label>“Miss me, but let me go, for this is a journey we all must take” – Amy Louise Kerswell</label><br>
+                        <input type="radio" value="“Miss me, but let me go, for this is a journey we all must take” – Amy Louise Kerswell" name="step1">
+                        <label>“Miss me, but let me go, for this is a journey we all must take” – Amy Louise Kerswell</label><br>
                     </li>
 
                 </ul>
@@ -115,18 +119,16 @@
                 </div>
                 <label for="step2Checkbox" style="font-family: Verdana; font-size: 16px; font-weight: bold;">I describe myself as: (check all that apply) </label>
                 <div style="font-size: 14px; line-height: 1.7;" id="step2Checkbox">
-                <input type="checkbox" name="Healthy" value="Healthy">
+                <input type="checkbox" name="step2checkbox1" value="Healthy">
                 <label for="Healthy"> Healthy </label><br>
-                <input type="checkbox" name="Healthy" value="Healthy">
+                <input type="checkbox" name="step2checkbox2" value="In good health">
                 <label for="Healthy"> In good health </label><br>
-                <input type="checkbox" name="Healthy" value="Healthy">
+                <input type="checkbox" name="step2checkbox3" value="Living with chronic illness">
                 <label for="Healthy"> Living with chronic illness </label><br>
-                <input type="checkbox" name="Healthy" value="Healthy">
+                <input type="checkbox" name="step2checkbox4" value="Living with terminal illness">
                 <label for="Healthy"> Living with terminal illness </label><br>
                 </div>
-
             </div>
-
 
             <div class="tab" id="step3" style="display: none;">
                 <h2 class="stepBox_header">Step 3: Comfort Care</h2>
@@ -135,39 +137,39 @@
                 <div style="font-size: 14px; line-height: 1.7;">
                     <p>Whether or not there’s a medical solution to make your life better, even if you can’t speak for yourself, your BestEndings Advance Directives can still include comfort care (also called <a href="https://bestendings.com/bestendings-advance-directives/">Palliative Care</a>).</p>
                     <label style="font-family: Verdana; font-weight: bold; font-size: 16px;">Comfort is important to me. If I can’t speak for myself, I want to be as free of suffering as possible. I direct the following comfort measures: (check all that apply)</label>
-                    <br><input type="checkbox" name="Pain" value="pain">
+                    <br><input type="checkbox" name="step3checkbox1" value="Pain medication">
                     <label for="pain">Pain medication</label><br>
-                    <input type="checkbox" name="medication" value="medication">
+                    <input type="checkbox" name="step3checkbox2" value="Pain medication, even if it hastens my death">
                     <label for="medication">Pain medication, even if it hastens my death</label><br>
-                    <input type="checkbox" name="Relieve" value="Relieve">
+                    <input type="checkbox" name="step3checkbox3" value="Relieve shortness of breath">
                     <label for="Relieve">Relieve shortness of breath</label><br>
-                    <input type="checkbox" name="Clear" value="Clear">
+                    <input type="checkbox" name="step3checkbox4" value="Clear my airways">
                     <label for="Clear">Clear my airways</label><br>
-                    <input type="checkbox" name="agitation" value="agitation">
+                    <input type="checkbox" name="step3checkbox5" value="Relieve agitation (feeling uncomfortable in my own skin)">
                     <label for="agitation">Relieve agitation (feeling uncomfortable in my own skin)</label><br>
-                    <input type="checkbox" name="constipation" value="constipation">
+                    <input type="checkbox" name="step3checkbox6" value="Relieve constipation">
                     <label for="constipation">Relieve constipation</label><br>
-                    <input type="checkbox" name="discomfort" value="discomfort">
+                    <input type="checkbox" name="step3checkbox7" value="Relieve discomfort from infections">
                     <label for="discomfort">Relieve discomfort from infections </label><br>
-                    <input type="checkbox" name="Mouth" value="Mouth">
-                    <label for="Mouth">Mouth care (dry mouth, mouth sores, flossing) </label><br>
-                    <input type="checkbox" name="Skin" value="Skin">
+                    <input type="checkbox" name="step3checkbox8" value="Mouth care (dry mouth, mouth sores, flossing)">
+                    <label for="Mouth">Mouth care (dry mouth, mouth sores, flossing)</label><br>
+                    <input type="checkbox" name="step3checkbox9" value="Skin care (bed sores, dry skin)">
                     <label for="Skin">Skin care (bed sores, dry skin)</label><br>
-                    <input type="checkbox" name="Posit" value="Posit">
+                    <input type="checkbox" name="step3checkbox10" value="Position for comfort">
                     <label for="Posit">Position for comfort</label><br>
-                    <input type="checkbox" name="Splint" value="Splint">
+                    <input type="checkbox" name="step3checkbox11" value="Splint for comfort">
                     <label for="Splint">Splint for comfort</label><br>
-                    <input type="checkbox" name="Palliative" value="Palliative">
+                    <input type="checkbox" name="step3checkbox12" value="Palliative chemotherapy (for comfort, not cure)">
                     <label for="Palliative">Palliative chemotherapy (for comfort, not cure)</label><br>
-                    <input type="checkbox" name="radiation" value="radiation">
+                    <input type="checkbox" name="step3checkbox13" value="Palliative radiation (for comfort, not cure)">
                     <label for="radiation">Palliative radiation (for comfort, not cure)</label><br>
-                    <input type="checkbox" name="surgery" value="surgery">
+                    <input type="checkbox" name="step3checkbox14" value="Palliative surgery (for comfort, not cure)">
                     <label for="surgery">Palliative surgery (for comfort, not cure)</label><br>
-                    <input type="checkbox" name="Complementary" value="Complementary">
+                    <input type="checkbox" name="step3checkbox15" value="Complementary health care providers, for example Social Worker, Personal Support, Complementary Medicine (massage acupuncture), Spiritual Care">
                     <label for="Complementary">Complementary health care providers, for example Social Worker, Personal Support, Complementary Medicine (massage acupuncture), Spiritual Care</label><br>
-                    <input type="checkbox" name="Other" value="Other" onclick="chkbxFunction()" id="otherCheck">
+                    <input type="checkbox" name="step3checkbox16" value="Other personal requests" onclick="chkbxFunction()" id="otherCheck">
                     <label for="Other">Other personal requests</label><br>
-                    <input type="checkbox" name="Life" value="Life" onclick="chkbxFunction2()" id="lifeCheck">
+                    <input type="checkbox" name="step3checkbox17" value="Life’s small pleasures" onclick="chkbxFunction2()" id="lifeCheck">
                     <label for="Life">Life’s small pleasures</label><br>
                     <br>
                 </div>

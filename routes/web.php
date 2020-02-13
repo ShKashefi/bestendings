@@ -11,12 +11,16 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/2', function () {
     return view('welcome');
 });
-Route::get('/1', function () {
+
+Route::get('/3', function () {
     return view('welcome1');
 });
+
+Route::get('/','FormController@ShowForm')->name('showform');
+Route::get('/1','FormController@ShowForm')->name('showform');
 Route::get('/showform','FormController@ShowForm')->name('showform');
 Route::post('/submitform','FormController@SubmitForm')->name('submitform');
 

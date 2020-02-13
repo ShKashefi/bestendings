@@ -15,7 +15,16 @@ class CreateFormsTable extends Migration
     {
         Schema::create('forms', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->text('step1');
+            $table->longtext('step1')->nullable();
+            $table->longtext('step2')->nullable();
+            $table->longtext('step3')->nullable();
+            $table->longtext('step4')->nullable();
+            $table->longtext('step5')->nullable();
+            $table->longtext('step6')->nullable();
+            $table->longtext('step7')->nullable();
+            $table->longtext('step8')->nullable();
+            $table->longtext('step9')->nullable();
+            $table->longtext('step10')->nullable();
             $table->timestamps();
         });
     }
