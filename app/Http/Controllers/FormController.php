@@ -54,21 +54,20 @@ class FormController extends Controller
         $StoreInDB = Form::create([
             'step1'  => 2,
             'step2'  => 1,
-//            'step3'  => $step3data,
-//            'step4'  => 4,
-//            'step5'  => 5,
-//            'step6'  => 6,
-//            'step7'  => 7,
-//            'step8'  => 8,
-//            'step9'  => 9,
-//            'step10' => 10,
+            'step3'  => $step3data,
+            'step4'  => 4,
+            'step5'  => 5,
+            'step6'  => 6,
+            'step7'  => 7,
+            'step8'  => 8,
+            'step9'  => 9,
+            'step10' => 10,
         ]);
 
         if ($StoreInDB){
             return 'ok';
         }
     }
-
 
 
     public function dd(Request $request){
